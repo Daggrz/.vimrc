@@ -1,12 +1,5 @@
-colorscheme gruvbox;
-
 syntax enable
 
-set tabstop=4
-set softtabstop=4
-set expandtab
-set nu
-set rnu
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -24,6 +17,11 @@ Plugin 'vim-airline/vim-airline'
 filetype plugin on
 call vundle#end()
 
+set tabstop=4
+set softtabstop=4
+set expandtab
+set nu
+set rnu
 set path+=**
 set wildmenu
 set showmatch
